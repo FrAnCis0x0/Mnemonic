@@ -9,8 +9,10 @@ KEYBOARD INPUTS
 
 This is my second JS project so, I'm well aware how trash my code is :)
 
-  PEG LIST USED
- // this.#textMap.set(0, "");
+   
+   PEG LIST USED
+
+       // this.#textMap.set(0, "");
        // this.#textMap.set(1, "");
        // this.#textMap.set(2, "");
        // this.#textMap.set(3, "");
