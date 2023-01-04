@@ -24,7 +24,7 @@ let isThreeDigit = false;
 
 
 buttons.forEach((button) => {
-  button.addEventListener('click', debounce((event) => {
+  button.addEventListener('click', (event) => {
     if(practise.compareMouseSelection(Number(button.innerText)) && gameType == "number"){
       practise.randomWordGenerator()
       modeOne.run()
@@ -47,7 +47,7 @@ buttons.forEach((button) => {
       }
       
     }
-  },100));
+  });
 });
 window.addEventListener("keyup",(e)=>{
   myFunction(e);

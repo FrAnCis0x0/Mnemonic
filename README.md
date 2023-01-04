@@ -12,7 +12,10 @@ KEYBOARD INPUTS
 
 This is my second JS project so, I'm well aware how trash my code is :)
 
+   ![Words]image.png
    
+   ![Numbers]image.png
+
    PEG LIST USED
    
    

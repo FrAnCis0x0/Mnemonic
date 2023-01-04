@@ -4,6 +4,7 @@ export class Practice{
     #currentNumber;
     #currentWord;
     gameType;
+    #isGreaterThan100=false;
 
      constructor(gameType){
         this.#fillMaps();
@@ -163,6 +164,11 @@ export class Practice{
 
    randomWordGenerator(){
         this.#currentNumber = this.#generateRandomNumber();
+        if(this.#currentNumber >= 100){
+            this.#isGreaterThan100 = true;
+        }else{
+            this.#isGreaterThan100 = false;
+        }
         this.#currentWord = this.#textMap.get(this.#currentNumber);
         return (this.gameType === "number")? this.#currentWord : this.#currentNumber;
         
@@ -207,6 +213,9 @@ export class Practice{
                 }
                 return false;
             case "number":
+                if(this.#isGreaterThan100 && Number.parseInt("10"+mouseSelection) === this.#currentNumber){
+                    return true;
+                }
                 if(mouseSelection === this.#currentNumber){
                     return true;
                 }
