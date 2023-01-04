@@ -1,4 +1,5 @@
 # Mnemonic Site
+[Link](https://francis0x0.github.io/Mnemonic/)
 
 This uses the *Major System* to encode words.
 it's a simple js site that listens for keyboard and mouse inputs and checks if the clicked number or word is correct.
