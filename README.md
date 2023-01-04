@@ -12,9 +12,9 @@ KEYBOARD INPUTS
 
 This is my second JS project so, I'm well aware how trash my code is :)
 
-   ![Words](image.png)
+   ![Words](https://github.com/FrAnCis0x0/Mnemonic/blob/main/screenshots/words.PNG)
    
-   ![Numbers](image.png)
+   ![Numbers](https://github.com/FrAnCis0x0/Mnemonic/blob/main/screenshots/numbers.PNG)
 
    PEG LIST USED
    
