@@ -7,6 +7,7 @@ it's a simple js site that listens for keyboard and mouse inputs and checks if t
 KEYBOARD INPUTS
 
 1337 for practising with words
+
 7331 : numbers
 
 This is my second JS project so, I'm well aware how trash my code is :)
