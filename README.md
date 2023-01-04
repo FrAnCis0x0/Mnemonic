@@ -12,17 +12,18 @@ This is my second JS project so, I'm well aware how trash my code is :)
 
    
    PEG LIST USED
-
-       // this.#textMap.set(0, "");
-       // this.#textMap.set(1, "");
-       // this.#textMap.set(2, "");
-       // this.#textMap.set(3, "");
-       // this.#textMap.set(4, "");
-       // this.#textMap.set(5, "");
-       // this.#textMap.set(6, "");
-       // this.#textMap.set(7, "");
-       // this.#textMap.set(8, "");
-       // this.#textMap.set(9, "");
+   
+   
+       this.#textMap.set(00, "Zues");
+       this.#textMap.set(01, "Seed");
+       this.#textMap.set(02, "Snow");
+       this.#textMap.set(03, "Sumo");
+       this.#textMap.set(04, "Sewer");
+       this.#textMap.set(05, "Soul");
+       this.#textMap.set(06, "Sushi");
+       this.#textMap.set(07, "Sauce");
+       this.#textMap.set(08, "Sofa");
+       this.#textMap.set(09, "Soup");
 
        this.#textMap.set(0, "Hose");
        this.#textMap.set(1, "Hat");
