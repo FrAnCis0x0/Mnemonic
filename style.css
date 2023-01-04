@@ -12,6 +12,7 @@
     gap: 1em;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 20%;
 }
 #dContainer{
     display: flex;
@@ -61,7 +62,7 @@
     color: #320708;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
     #btnContainer {
       flex-direction: row-reverse;
       row-gap: 2px;
@@ -74,6 +75,11 @@
     #dContainer{
         margin-top: 30%;
     }
-   
+    .btn:hover p,.btn:hover{
+        background-color: #B01A1D;
+        color: #FC6669;
+    }
 
   }
+
+ 
