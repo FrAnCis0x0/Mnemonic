@@ -5,6 +5,7 @@ This uses the *Major System* to encode words.
 it's a simple js site that listens for keyboard and mouse inputs and checks if the clicked number or word is correct.
 
 KEYBOARD INPUTS
+
 1337 for practising with words
 7331 : numbers
 
