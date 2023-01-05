@@ -14,7 +14,7 @@ export class Practice{
 
     #generateRandomNumber() {
         // if the array of past numbers is full, remove the oldest number
-        if (this.#pastNumbers.length === 50) {
+        if (this.#pastNumbers.length === 90) {
             this.#pastNumbers.shift();
         }
 
